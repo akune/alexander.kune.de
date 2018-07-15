@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no" /> 
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Alexander Kune</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+<<<<<<< .mine
+    
+    <noscript>
+    <style type="text/css">
+      .tab-content > div.tab-pane {
+        display: block;
+        opacity: 1;
+      }
+      span.anchor {
+        display: block; position: relative; top: -50px; visibility: hidden;
+      }
+    </style>
+    </noscript>
+=======
+>>>>>>> .r6947
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">Alexander Kune</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#profile" data-toggle="tab">Profil</a></li>
+            <li><a href="#education" data-toggle="tab">Ausbildung</a></li>
+            <li><a href="#contact" data-toggle="tab">Kontakt</a></li>
+            <li><a href="#jobs" data-toggle="tab">Berufspraxis</a></li>
+            <li><a href="#projects" data-toggle="tab">Projekte</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+<!-- Nav tabs -->
+<!--<ul class="nav nav-tabs">
+  <li><a href="#home" data-toggle="tab">Home</a></li>
+  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+  <li><a href="#messages" data-toggle="tab">Messages</a></li>
+  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+</ul>-->
+<!-- Tab panes -->
+<div id="container" class="tab-content container">
+  <img id="me" class="shadow pull-right" width="64" height="64" style="margin-top: 15px;" src="img/alexander_kune.jpg"/>
+
+  <noscript><span class="anchor" id="profile"></span></noscript>
+  <div class="tab-pane fade in active" id="profile">
+    <h3>Profil</h3>
+    <br/>
+    <h4>Alexander Kune</h4>
+    Diplom-Informatiker<br/>
+    <br/>
+    Freiberuflicher Softwareentwickler und IT-Berater in Hamburg<br/>
+    <br/>
+    <h4>Schwerpunkt</h4>
+    Java, JSE, JEE, JPA, Hibernate, Spring, JSP, CSS, JavaScript, PHP<br/>
+    <br/>
+    <h4>Soft Skills</h4>
+    Hoher Grad an Teamfähigkeit und Kommunikationsfreude, Erfahrung mit Scrum-Projekten, Erfahrung als Teilprojektleiter, verhandlungssicheres Englisch in Wort und Schrift<br/>
+    <br/>
+    <h4>Branchen</h4>
+    Telekommunikation, Banken, Versicherungen, Finanzwesen, E-Commerce<br/>
+    <br/>
+    <noscript>
+    <h4>Sonstiges</h4>
+    Ich bin ab dem 15.3.2014 für neue Projekte <a href="mailto:Alexander Kune <alexander@kune.de>?subject=Ihre Verfügbarkeit ab dem 15.3.2014">verfügbar</a>.<br/>
+    <br/>
+    </noscript>
+  </div>
+  
+  <noscript><span class="anchor" id="contact"></span></noscript>
+  <div class="tab-pane fade" id="contact">
+    <h3>Kontakt</h3>
+    <br/>
+    <h4>Alexander Kune</h4>
+    Landdrostenweg 11e<br/>
+    22459 Hamburg<br/>
+    <br/>
+    <label>@phone: </label>&nbsp;<a href="tel:+4917648264050">+49 176 48 26 40 50</a><br/>
+    <label>@mail: </label>&nbsp;<a href="mailto:Alexander Kune <alexander@kune.de>">alexander@kune.de</a><br/>
+    <label>@www: </label>&nbsp;<a href="https://alexander.kune.de">alexander.kune.de</a></br/>
+    <label>@xing: </label>&nbsp;<a href="https://www.xing.com/profile/Alexander_Kune">Alexander_Kune</a><br/>
+    <br/>
+    <a href="Alexander%20Kune.vcf" type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-book">&nbsp;</span>Visitenkarte
+    </a><br/>
+    <br/>
+  </div>
+  
+  <noscript><span class="anchor" id="education"></span></noscript>
+  <div class="tab-pane fade" id="education">
+    <h3>Ausbildung</h3>
+    <br/>
+    <h4>Hochschulstudium</h4>
+    <table class="table table-striped">    
+      <thead>
+      	<tr>
+      	  <th>Zeitraum</th><th>Beschreibung</th>
+      	</tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1998/10 - 2002/09</td><td>Informatik-Studium mit Ergänzungsfach Medizin an der Universität Hamburg mit dem Abschluss B.Sc.</td>
+        </tr>
+        <tr>
+          <td>2002/10 - 2006/04</td><td>Informatik-Studium mit Ergänzungsfach Medizin an der Universität Hamburg mit dem Abschluss Dipl.-Inf.</td>
+        </tr>
+        <tr>
+          <td>2005/04 - 2006/04</td><td>Diplomarbeit: <a target="_blank" href="http://vsis-www.informatik.uni-hamburg.de/getDoc.php/thesis/405/Diplomarbeit_-_Alexander_Kune.pdf"><i>Leistungsbewertung von J2EE‐Anwendungen</i></a><br/>Entwicklung einer Plattform zur generischen Leistungsbewertung von Anwendungen mit Mehrschichtarchitektur</td>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    
+    <h4>Sonstige</h4>
+    <table class="table table-striped">
+      <thead>
+      	<tr>
+      	  <th>Zeitraum</th><th>Beschreibung</th>
+      	</tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2004/06 - 2004/09</td><td><u>Praktikum bei Sun Microsystems, Hamburg</u><br/>Teilautomatische Angebotsvisualisierung auf Basis von J2EE und StarOffice<br/>Umgebung: <i>Java 1.4, J2EE, XML, UNO, Eclipse IDE, Netbeans, JDom, JUnit, CVS, Solaris, Linux, Windows</i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <noscript><span class="anchor" id="jobs"></span></noscript>
+  <div class="tab-pane fade" id="jobs">
+    <h3>Berufspraxis</h3>
+    <br/>
+    <table class="table table-striped">
+      <thead>
+      	<tr>
+      	  <th>Zeitraum</th><th>Tätigkeit</th>
+      	</tr>
+       </thead>
+       <tbody>
+        <tr>
+          <td>1999/06 - 2000/06</td><td><u>Java-Entwickler bei Easy Use Systems</u></td>
+        </tr>
+        <tr>
+          <td>2000/07 - 2006/04</td><td><u>Freiberuflicher Softwareberater</u></td>
+        </tr>
+        <tr>
+          <td>2006/05 - 2007/07</td><td><u>Freiberuflicher Softwareentwickler bei Con Structores GmbH</u></td>
+        </tr>
+        <tr>
+          <td>2007/08 - 2008/02</td><td><u>Systemanalyst und Softwareentwickler bei HanseNet GmbH</u></td>
+        </tr>
+        <tr>
+          <td>2008/03 - 2011/12</td><td><u>Freiberuflicher Softwareentwickler bei BitXP GbR</u></td>
+        </tr>
+        <tr>
+          <td>2012/01 - heute</td><td><u>Freiberuflicher Softwareentwickler und IT-Berater</u></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <noscript><span class="anchor" id="projects"></span></noscript>
+  <div class="tab-pane fade" id="projects">
+    <h3>Projekte</h3>
+    <br/>
+    <table class="table table-striped">
+      <thead>
+      	<tr>
+      	  <th>Zeitraum</th><th>Projektdetails</th>
+      	</tr>
+       </thead>
+       <tbody>
+        <tr>
+          <td>2013/06 - 2014/02</td>
+          <td>
+            <u>Deposit Solutions GmbH</u><br/>Entwicklung einer Endkunden-Plattform für Kapitalanlagen<br/>
+            Umgebung: <i>Java, JPA, Hibernate, Spring, Spring MVC, Spring Webflow, JSP, CSS, JavaScript, Jenkins, JUnit, Selenium Server, MySql, RESTful Web Services, Eclipse, Maven, Jetty, Subversion</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2013/01 - 2013/08</td>
+          <td>
+            <u>msgGillardon AG</u><br/>Technische Leitung bei der Umsetzung SEPA spezifischer Anpassungen in einer bestehenden Fernabsatz-Kreditplattform einer großen deutschen Bank<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring Webflow, JSP, CSS, JavaScript, Log4j, JUnit, XML, Eclipse, Oracle Weblogic Server, Maven, Struts, JSF, AndroMDA, Velocity Templates, MagicDraw, Subversion, Oracle 10</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2012/11 - 2013/01</td>
+          <td>
+            <u>Deposit Solutions GmbH</u><br/>Entwicklung eines Prototypen zu Demonstrationszwecken im Kapitalmarktumfeld<br/>
+            Umgebung: <i>Java, Spring, Spring MVC, Spring Webflow, JSP, CSS, JavaScript, Eclipse, Maven, Jetty, Subversion</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2012/05 - 2012/10</td>
+          <td>
+            <u>msgGillardon AG</u><br/>Konzeption und Umsetzung einer Endkunden-Lösung zu einer bestehenden Fernabsatz-Kreditplattform einer großen deutschen Bank<br/>
+            Umgebung: <i>Java, JSP, JavaScript, CSS, Bouncy Castle Crypto APIs, Hibernate, Spring, Spring Webflow, Log4j, JUnit, XML, Eclipse, Oracle Weblogic Server, Maven, Subversion, Oracle 10</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2011/06 - 2012/04</td>
+          <td>
+            <u>eSailors GmbH</u><br/>
+            Einsatz in unterschiedlichen Projekten im E-Commerce-Umfeld im Bereich Web-Entwicklung (hauptsächlich Backend, Frontend unterstützend)<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring MVC, JSP, CSS, JUnit, TestNG, ActiveMQ, Eclipse, Maven, Jenkins, Oracle 10, Oracle SQL Developer, Bizagi Process Modeler, Checkstyle, FindBugs, Subversion, Apache Tomcat, Linux</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2010/06 - 2011/05</td>
+          <td>
+            <u>HanseNet Telekommunikation GmbH / Telefónica Germany GmbH & Co. OHG</u><br/>
+            Einsatz in unterschiedlichen Projekten im Telekommunikationsumfeld im Bereich Web-Entwicklung (Frontend und Backend)<br/>
+            Umgebung: <i>Java, JPA, Hibernate, Spring, Spring MVC, Log4j, JUnit, XML, JSP, CSS, Javascript (insbes. JQuery u. JQuery-UI), EJB, MDB, Apache CXF Web-Services, TOAD for Oracle, Apache Tomcat, JBoss, Hudson, Subversion, Oracle 8</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2008/04 - 2009/09</td>
+          <td>
+            <u>msg systems AG</u><br/>
+            Einsatz in unterschiedlichen Projekten im Banken- und Bausparkassen-Umfeld<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring Webflow, JSP, CSS, JavaScript, Log4j, JUnit, XML, Eclipse, Oracle Weblogic Server, Maven, Struts, JSF, AndroMDA, Velocity Templates, MagicDraw, Subversion, Oracle 8</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2007/08 - 2008/02</td>
+          <td>
+            <u>HanseNet Telekommunikation GmbH (im Angestelltenverhältnis)</u><br/>
+            Einsatz in unterschiedlichen Projekten im Umfeld der Alice Lounge<br/>
+            Umgebung: <i>Java, Log4j, JUnit, XML, JSP, CSS, Javascript, EJB, Apache CXF Web-Services, TOAD for Oracle, CVS, Apache Tomcat, JBoss, Ant, Continuum, Oracle 8</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2006/09 - 2007/07</td>
+          <td>
+            <u>Con Structores GmbH</u><br/>
+            Überführung eines PHP basierten Wissensmanagementsystems in das J2EE-Umfeld<br/>
+            Umgebung: <i>Java, Hibernate, Lucene, JSP, Java Server Faces, PHP, HTML, CSS, Eclipse, Apache Tomcat, Subversion, MySQL</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2006/05 - 2006/08</td>
+          <td>
+            <u>HanseNet Telekommunikation GmbH</u><br/>
+            Umsetzung des neuen Hansenet Kundencenters auf Basis von J2EE<br/>
+            Umgebung: <i>Java, Struts, XML, JSP, CSS, Javascript, Apache Tomcat, JBoss, OpenCMS, Ant, CSV</i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<noscript>
+<div id="nosslhint" class="navbar-fixed-bottom alert alert-warning container">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>JavaScript ist deaktiviert!</strong> Bitte aktivieren Sie JavaScript um diese Seite zu nutzen.
+</div>
+</noscript>
+
+<div id="nosslhint" class="navbar-fixed-bottom alert alert-warning container" style="display: none;">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>Unverschlüsselte Datenübertragung!</strong> Wechseln Sie jetzt zur <a href="https://alexander.kune.de">SSL gesicherten Verbindung</a>.
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">// <![CDATA[
+    function removeHash () { 
+    history.pushState("", document.title, window.location.pathname
+                                                       + window.location.search);
+    }
+    $(window).load(function() {
+      if ((document.location+'').indexOf('#') >= 0) {
+       $('a[href="#'+location.hash.slice(1)+'"]').tab('show');
+       removeHash();
+      }
+    });
+	$(document).ready(function() {
+      $(window).on('hashchange',function(){ 
+       $('a[href="#'+location.hash.slice(1)+'"]').tab('show');
+       removeHash();
+       window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
+      });
+      $('#me').popover({placement: 'left', container: '#container', html: true, content: '<i>Ich bin ab dem 15.3.2014 für <br/>neue Projekte <a href="mailto:Alexander Kune <alexander@kune.de>?subject=Ihre Verfügbarkeit ab dem 15.3.2014">verfügbar</a>.</i>'});
+      window.setTimeout("$('#me').popover('show')", 1500);
+      $(window).resize(function() {
+          $('#me').popover('show');
+      });
+      $('div.navbar-collapse ul li a').click(function() {
+        if ($('div.navbar-collapse.in').size() > 0) {
+          window.setTimeout("$('.navbar-collapse').collapse('hide')", 100);
+        }
+        window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
+      });
+      if ((document.location + "").indexOf("http://") == 0) {
+        window.setTimeout("$('#nosslhint').fadeIn('fast')", 5000);
+      }
+    });
+    // ]]</script>
+  </body>
+</html>
+

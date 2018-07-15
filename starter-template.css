@@ -1,0 +1,129 @@
+body {
+  padding-top: 50px;
+  background: radial-gradient(circle, #E0E0F0, #FFFFFF) repeat repeat 0 0 rgba(0, 0, 0, 0);
+  min-height: 800px;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+html {
+}
+
+#container {
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.shadow{
+    -moz-box-shadow: 3px 0px 4px #ccc;
+    -webkit-box-shadow: 3px 3px 4px #ccc;
+    box-shadow: 0px 0px 4px #ccc; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 4, Direction = 135, Color = '#cccccc');
+}
+
+div.navbar-fixed-bottom div.alert.alert-warning, 
+div.navbar-fixed-bottom.alert.alert-warning {
+  margin-bottom: 0;
+}
+
+div.bottom-sitemap {
+  height: 45px;
+  padding-top: 75px;
+}	
+
+.tab-pane {
+  padding-bottom: 75px;
+}
+
+.alert {
+  border-width: 2px;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+table thead tr .headerSortUp span.sortflag{
+  width: 19px;
+  height: 10px;
+  display: inline-block;
+  background-image: url("img/asc.gif");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+table thead tr .headerSortDown span.sortflag {
+  width: 19px;
+  height: 10px;
+  display: inline-block;
+  background-image: url("img/desc.gif");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+table thead tr .header {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+div.navbar-header.active a.navbar-brand {
+  color: #FFFFFF;
+}
+
+.print-only {
+  display: none;
+}
+
+@page {
+size: landscape;   /* auto is the initial value */ 
+/* this affects the margin in the printer settings */ 
+padding: 50mm;  
+} 
+  
+@media print {    
+
+  body {
+    margin: 0 20mm 0 15mm;
+    padding: 0;
+    font-family: Serif;
+  }
+  
+  h1, h2, h3 {
+    page-break-after : avoid;
+  }
+  
+  .starter-template {
+    padding: 0;
+    margin: 0;
+  }
+  
+  div.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    page-break-inside : avoid;
+  }
+  
+  .print-only {
+    display: block;
+  }
+  
+  .popover, .alert, .no-print, .no-print * {
+        display: none !important;
+   }
+   
+  .tab-content > div.tab-pane {
+     display: block;
+     opacity: 1;
+     margin: 0 0 20mm 0;
+     padding: 0;
+   }
+   
+   span.anchor {
+     display: block; position: relative; top: -50px; visibility: hidden;
+   }
+
+}

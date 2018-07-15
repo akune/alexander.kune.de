@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no" /> 
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Alexander Kune</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    
+    <noscript>
+    <style type="text/css">
+      .tab-content > div.tab-pane {
+        display: block;
+        opacity: 1;
+      }
+      span.anchor {
+        display: block; position: relative; top: -50px; visibility: hidden;
+      }
+    </style>
+    </noscript>
+  </head>
+
+  <body>
+
+    <!-- Nav tabs -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header active">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#profile">Alexander Kune</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#education" data-toggle="tab">Ausbildung</a></li>
+            <li><a href="#contact" data-toggle="tab">Kontakt</a></li>
+            <li><a href="#jobs" data-toggle="tab">Berufspraxis</a></li>
+            <li><a href="#projects" data-toggle="tab">Projekte</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+<!-- Tab panes -->
+<div id="container" class="tab-content container">
+  <img id="me" alt="" class="no-print shadow pull-right" width="64" height="64" style="margin-top: 15px;" src="img_new/alexander_kune.png"/>
+  <img class="print-only shadow pull-right" alt="" width="96" height="96" style="margin-top: 15px;" src="img_new/alexander_kune_print.jpg"/>
+
+  <noscript><span class="anchor" id="profile"></span></noscript>
+  <div class="tab-pane fade in active" id="_profile">
+    <h3>Profil</h3>
+    <br/>
+    <h4>Alexander Kune</h4>
+    Diplom-Informatiker<br/>
+    <br/>
+    Freiberuflicher Softwareentwickler und IT-Berater in Hamburg<br/>
+    <br/>
+    <h4>Schwerpunkt</h4>
+    Java, JSE, JEE, JPA, Hibernate, Spring, JSP, CSS, JavaScript, PHP<br/>
+    <br/>
+    <h4>Soft Skills</h4>
+    Hoher Grad an Teamfähigkeit und Kommunikationskompetenz, Erfahrung mit Scrum-Projekten, Erfahrung als Teilprojektleiter, verhandlungssicheres Englisch in Wort und Schrift<br/>
+    <br/>
+    <h4>Branchen</h4>
+    Telekommunikation, Banken, Versicherungen, Finanzwesen, E-Commerce<br/>
+    <br/>
+<!--    <noscript>
+    <h4>Sonstiges</h4>
+    Ich bin ab dem 15.3.2014 für neue Projekte <a href="mailto:Alexander%20Kune%20<alexander@kune.de>?subject=Ihre%20Verf%C3%BCgbarkeit%20ab%20dem%2015.3.2014">verfügbar</a>.<br/>
+    <br/>
+    </noscript>-->
+
+	<div class="bottom-sitemap no-print">
+		&copy; 2014 Alexander Kune | Stand: 15.08.2014 |
+		<a href="#imprint">Impressum</a> |
+		<a href="#privacy">Datenschutz</a> |
+		<a href="http://validator.w3.org/check?uri=https%3A%2F%2Falexander.kune.de;verbose=1" target="_blank">W3C-Konformität</a> | 
+		<a href="index_en.html">English version</a> 		
+		<span id="print" style="display: none;"> |
+		<a href="javascript:window.print()">Profil drucken</a></span>
+	</div>
+
+  </div>
+  
+  <noscript><span class="anchor" id="contact"></span></noscript>
+  <div class="tab-pane fade" id="_contact">
+    <h3>Kontakt</h3>
+    <br/>
+    <h4>Alexander Kune</h4>
+    Landdrostenweg 11e<br/>
+    22459 Hamburg<br/>
+    <br/>
+    <label>@phone: </label>&nbsp;<a href="tel:+4917648264050">+49 176 48 26 40 50</a><br/>
+    <label>@mail: </label>&nbsp;<a href="mailto:Alexander%20Kune%20%3Calexander@kune.de%3E">alexander@kune.de</a><br/>
+    <label>@www: </label>&nbsp;<a href="https://alexander.kune.de">alexander.kune.de</a><br/>
+    <label>@xing: </label>&nbsp;<a href="https://www.xing.com/profile/Alexander_Kune">Alexander_Kune</a><br/>
+    <label>@pgp: </label>&nbsp;<a href="7B9186D2.asc" download>7B9186D2</a><br/>
+    <br/>
+    <a href="Alexander%20Kune.vcf" class="btn btn-default no-print">
+      <span class="glyphicon glyphicon-book">&nbsp;</span>Visitenkarte
+    </a><br/>
+    <br/>
+  </div>
+  
+  <noscript><span class="anchor" id="education"></span></noscript>
+  <div class="tab-pane fade" id="_education">
+    <h3>Ausbildung</h3>
+    <br/>
+    <h4>Hochschulstudium</h4>
+    <table id="table-education" class="table table-striped">    
+      <thead>
+      	<tr>
+      	  <th class="headerSortDown">Zeitraum<span class="sortflag"></span></th><th>Tätigkeit</th>
+      	</tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1998/10 - 2002/09</td><td>Informatik-Studium mit Ergänzungsfach Medizin an der Universität Hamburg mit dem Abschluss B.Sc.</td>
+        </tr>
+        <tr>
+          <td>2002/10 - 2006/04</td><td>Informatik-Studium mit Ergänzungsfach Medizin an der Universität Hamburg mit dem Abschluss Dipl.-Inf.</td>
+        </tr>
+        <tr>
+          <td>2005/04 - 2006/04</td><td>Diplomarbeit: <a target="_blank" href="http://vsis-www.informatik.uni-hamburg.de/getDoc.php/thesis/405/Diplomarbeit_-_Alexander_Kune.pdf"><i>Leistungsbewertung von J2EE‐Anwendungen</i></a><br/>Entwicklung einer Plattform zur generischen Leistungsbewertung von Anwendungen mit Mehrschichtarchitektur</td>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    
+    <h4>Sonstige</h4>
+    <table class="table table-striped">
+      <thead>
+      	<tr>
+      	  <th>Zeitraum</th><th>Beschreibung</th>
+      	</tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2004/06 - 2004/09</td><td><u>Praktikum bei Sun Microsystems, Hamburg</u><br/>Teilautomatische Angebotsvisualisierung auf Basis von J2EE und StarOffice<br/>Umgebung: <i>Java 1.4, J2EE, XML, UNO, Eclipse IDE, Netbeans, JDom, JUnit, CVS, Solaris, Linux, Windows</i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <noscript><span class="anchor" id="jobs"></span></noscript>
+  <div class="tab-pane fade" id="_jobs">
+    <h3>Berufspraxis</h3>
+    <br/>
+    <table id="table-jobs" class="table table-striped">
+      <thead>
+      	<tr>
+      	  <th class="headerSortDown">Zeitraum<span class="sortflag"></span></th><th>Tätigkeit</th>
+      	</tr>
+       </thead>
+       <tbody>
+        <tr>
+          <td>1999/06 - 2000/06</td>
+          <td>
+            <u>Java-Entwickler bei Easy Use Systems GmbH (studienbegleitend)</u><br/>
+            Erste praktische Erfahrungen mit der Java-Entwicklung im Umfeld der Verarbeitung, Aggregation und Aufbereitung strukturierter Daten<br/>
+            Umgebung: <i>Java, Servlet, JDBC, MS Access, MS SQL Server, Forte4J</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2000/07 - 2006/04</td>
+          <td>
+            <u>Freiberuflicher Softwareberater (studienbegleitend)</u><br/>
+            Unterstützung in Privathaushalten und kleinen Unternehmen beim Umgang mit Betriebssystemen und Anwendungen. Beratung beim Hardwarekauf und bei der Einrichtung bis hin zu kleinen Unternehmensnetzwerken<br/>
+            Umgebung: <i>Windows, Linux, MS Office, Open Office, Firefox, Thunderbird</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2006/05 - 2007/07</td><td><u>Freiberuflicher Softwareentwickler bei Con Structores GmbH</u><br/>
+            Einsatz als PHP- und Java-Entwickler in verschiedenen Projekten<br/>
+            Umgebung: <i>Java, JSP, JSF, Struts, Oracle, MySQL, ... (weitere siehe <a href="#projects">Projekte</a>)</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2007/08 - 2008/02</td>
+          <td>
+            <u>Systemanalyst und Softwareentwickler bei HanseNet GmbH</u><br/>
+            Umgebung: <i>Java, Log4j, JUnit, XML, JSP, CSS, Javascript, EJB, ... (weitere siehe <a href="#projects">Projekte</a>)</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2008/03 - 2011/12</td>
+          <td>
+            <u>Freiberuflicher Softwareentwickler bei BitXP GbR</u><br/>
+            Einsatz als Java-Entwickler, Software-Architekt und Teilprojektleiter in verschiedenen Projekten<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring Webflow, JSP, ... (weitere siehe <a href="#projects">Projekte</a>)</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2012/01 - heute</td>
+          <td>
+            <u>Freiberuflicher Softwareentwickler und IT-Berater</u><br/>
+            Einsatz als Java-Entwickler, Software-Architekt und Teilprojektleiter in verschiedenen Projekten<br/>
+            Umgebung: <i>Java, JPA, Hibernate, Spring, Spring MVC, JSP, ... (weitere siehe <a href="#projects">Projekte</a>)</i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <noscript><span class="anchor" id="projects"></span></noscript>
+  <div class="tab-pane fade" id="_projects">
+    <h3>Projekte</h3>
+    <br/>
+    <table id="table-projects" class="table table-striped">
+      <thead>
+      	<tr>
+      	  <th class="headerSortUp">Zeitraum<span class="sortflag"></span></th><th>Tätigkeit</th>
+      	</tr>
+       </thead>
+       <tbody>
+        <tr>
+          <td>2014/03 - heute</td>
+          <td>
+            <u><i>-- Kundenname noch nicht freigegeben --</i></u><br/>Entwicklung im Logistik-Umfeld<br/>
+            Umgebung: <i>Java, JPA, Hibernate, Spring, XML, XSD, Hudson, JUnit, MySql, Eclipse, Eclipse RCP, SWT, SWTBot, OSGI, Maven, Jetty, Subversion</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2013/06 - 2014/02</td>
+          <td>
+            <u>Deposit Solutions GmbH</u><br/>Entwicklung einer Endkunden-Plattform für Kapitalanlagen<br/>
+            Umgebung: <i>Java, JPA, Hibernate, Spring, Spring MVC, Spring Webflow, JSP, CSS, JavaScript, XML, XSD, CSV, Jenkins, JUnit, Selenium Server, MySql, RESTful Web Services, Jersey, Jackson, Eclipse, Maven, Jetty, Subversion</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2013/01 - 2013/08</td>
+          <td>
+            <u>msgGillardon AG</u><br/>Technische Leitung bei der Umsetzung SEPA spezifischer Anpassungen in einer bestehenden Fernabsatz-Kreditplattform einer großen deutschen Bank<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring Webflow, JSP, CSS, JavaScript, Log4j, JUnit, XML, JAX-B, SOAP Web Services, SoapUI, Eclipse, Oracle Weblogic Server, Maven, Struts, JSF, AndroMDA, Velocity Templates, MagicDraw, Subversion, Oracle 10</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2012/11 - 2013/01</td>
+          <td>
+            <u>Deposit Solutions GmbH</u><br/>Entwicklung eines Prototypen zu Demonstrationszwecken im Kapitalmarktumfeld<br/>
+            Umgebung: <i>Java, Spring, Spring MVC, Spring Webflow, JSP, CSS, JavaScript, Eclipse, Maven, Jetty, Subversion</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2012/05 - 2012/10</td>
+          <td>
+            <u>msgGillardon AG</u><br/>Konzeption und Umsetzung einer Endkunden-Lösung zu einer bestehenden Fernabsatz-Kreditplattform einer großen deutschen Bank<br/>
+            Umgebung: <i>Java, JSP, JavaScript, CSS, Bouncy Castle Crypto APIs, Hibernate, Spring, Spring Webflow, Log4j, JUnit, XML, Eclipse, Oracle Weblogic Server, Maven, Subversion, Oracle 10</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2011/06 - 2012/04</td>
+          <td>
+            <u>eSailors GmbH</u><br/>
+            Einsatz in unterschiedlichen Projekten im E-Commerce-Umfeld im Bereich Web-Entwicklung (hauptsächlich Backend, Frontend unterstützend)<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring MVC, JSP, CSS, JUnit, TestNG, ActiveMQ, Eclipse, Maven, Jenkins, Oracle 10, Oracle SQL Developer, Bizagi Process Modeler, Checkstyle, FindBugs, Subversion, Apache Tomcat, Linux</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2010/06 - 2011/05</td>
+          <td>
+            <u>HanseNet Telekommunikation GmbH / Telefónica Germany GmbH & Co. OHG</u><br/>
+            Einsatz in unterschiedlichen Projekten im Telekommunikationsumfeld im Bereich Web-Entwicklung (Frontend und Backend)<br/>
+            Umgebung: <i>Java, JPA, Hibernate, Spring, Spring MVC, Log4j, JUnit, XML, JSP, CSS, Javascript (insbes. JQuery u. JQuery-UI), EJB, MDB, Apache CXF Web-Services, TOAD for Oracle, Apache Tomcat, JBoss, Hudson, Subversion, Oracle 8</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2008/04 - 2009/09</td>
+          <td>
+            <u>msg systems AG</u><br/>
+            Einsatz in unterschiedlichen Projekten im Banken- und Bausparkassen-Umfeld<br/>
+            Umgebung: <i>Java, Hibernate, Spring, Spring Webflow, JSP, CSS, JavaScript, Log4j, JUnit, XML, Eclipse, Oracle Weblogic Server, Maven, Struts, JSF, AndroMDA, Velocity Templates, MagicDraw, Subversion, Oracle 8</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2007/08 - 2008/02</td>
+          <td>
+            <u>HanseNet Telekommunikation GmbH (im Angestelltenverhältnis)</u><br/>
+            Einsatz in unterschiedlichen Projekten im Umfeld der Alice Lounge<br/>
+            Umgebung: <i>Java, Log4j, JUnit, XML, JSP, CSS, Javascript, EJB, Apache CXF Web-Services, TOAD for Oracle, CVS, Apache Tomcat, JBoss, Ant, Continuum, Oracle 8</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2006/09 - 2007/07</td>
+          <td>
+            <u>Con Structores GmbH</u><br/>
+            Überführung eines PHP basierten Wissensmanagementsystems in das J2EE-Umfeld<br/>
+            Umgebung: <i>Java, Hibernate, Lucene, JSP, Java Server Faces, PHP, HTML, CSS, Eclipse, Apache Tomcat, Subversion, MySQL</i>
+          </td>
+        </tr>
+        <tr>
+          <td>2006/05 - 2006/08</td>
+          <td>
+            <u>HanseNet Telekommunikation GmbH</u><br/>
+            Umsetzung des neuen Hansenet Kundencenters auf Basis von J2EE<br/>
+            Umgebung: <i>Java, Struts, XML, JSP, CSS, Javascript, Apache Tomcat, JBoss, OpenCMS, Ant, CVS</i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <noscript><span class="anchor" id="imprint"></span></noscript>
+  <div class="tab-pane fade no-print" id="_imprint">
+    <h3>Impressum</h3>
+    <br/>
+    <h4>Alexander Kune</h4>
+    Landdrostenweg 11e<br/>
+    22459 Hamburg<br/>
+    <br/>
+    <label>E-Mail: </label>&nbsp;<a href="mailto:Alexander%20Kune%20%3Calexander@kune.de%3E">alexander@kune.de</a><br/>
+    <label>USt-IdNr.: </label>&nbsp;DE210021248<br/>
+  </div>
+
+  <noscript><span class="anchor" id="privacy"></span></noscript>
+  <div class="tab-pane fade no-print" id="_privacy">
+    <h3>Datenschutz</h3>
+    <br/>
+    <br/>
+    Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das <a href="http://tools.google.com/dlpage/gaoptout?hl=de" target="_blank">Browser-Add-on zur Deaktivierung von Google Analytics</a> herunterladen und installieren.<br/>
+	<br/>
+    Sie können die Erfassung durch Google Analytics verhindern, indem Sie auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, der die zukünftige Erfassung Ihrer Daten beim Besuch dieser Website verhindert:<br/>
+    <a href="javascript:gaOptout()">Google Analytics deaktivieren</a><br/>
+    <br/>
+    Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter <a href="http://www.google.com/analytics/terms/de.html" target="_blank">GOOGLE ANALYTICS BEDINGUNGEN</a> bzw. unter <a href="http://www.google.com/intl/de/analytics/privacyoverview.html" target="_blank">Google Analytics - Übersicht</a>. Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code „gat._anonymizeIp();“ erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten.  <br/>
+    <br/>
+    Quelle: <a href="http://www.datenschutzbeauftragter-info.de" target="_blank">www.datenschutzbeauftragter-info.de</a>
+  </div>
+    
+</div>
+
+
+<div class="navbar-fixed-bottom">
+  <noscript>
+    <div id="nojshint" class="alert alert-warning container">
+      <strong>JavaScript ist deaktiviert!</strong> Bitte aktivieren Sie JavaScript um diese Seite optimal zu nutzen.
+    </div>
+  </noscript>
+  <div id="nosslhint" class="alert alert-warning container" style="display: none;">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>Unverschlüsselte Datenübertragung!</strong> Wechseln Sie jetzt zur <a href="https://alexander.kune.de">SSL gesicherten Verbindung</a>.
+  </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="jquery.tablesorter.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">// <![CDATA[
+    function setHash(hash) { 
+      history.pushState("", document.title, window.location.pathname + window.location.search + hash);
+    }
+	    $('.tab-pane').each(function() {
+	      if ($(this).attr('id').indexOf('_') == 0) {
+	        $(this).attr('id', $(this).attr('id').substring(1));
+	      }
+	    });
+    if ((document.location+'').indexOf('#') >= 0) {
+     if (document.location.hash.slice(1)!=('profile')) {
+       $('a.navbar-brand').parent().removeClass('active');
+     }
+     $('a[href="#'+location.hash.slice(1)+'"]').tab('show');
+     $('html, body').animate({ scrollTop: 0 }, 'fast');
+    } else {
+     $('a[href="#profile"]').tab('show');
+     $('html, body').animate({ scrollTop: 0 }, 'fast');
+    }
+	$(document).ready(function() {
+	    $('#print').show();
+      $(window).on('hashchange',function(){ 
+       if (document.location.hash.slice(1)=='' || document.location.hash.slice(1)==('profile')) {
+         $('a.navbar-brand').parent().addClass('active');
+         $("ul.nav li.active").each(function() { 
+           $(this).removeClass("active"); 
+           $('a:focus').blur();
+         });
+       } else {
+         $('a.navbar-brand').parent().removeClass('active');
+       }
+       if (document.location.hash.slice(1)=='') {
+         $('a[href="#profile"]').tab('show');
+       } else {
+         $('a[href="#'+location.hash.slice(1)+'"]').tab('show');
+       }
+       ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
+       window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
+      });
+//      $('#me').popover({placement: 'left', container: '#container', html: true, content: '<i>Ich bin ab dem 15.3.2014 für <br/>neue Projekte <a href="mailto:Alexander%20Kune%20<alexander@kune.de>?subject=Ihre%20Verf%C3%BCgbarkeit%20ab%20dem%2015.3.2014">verfügbar</a>.</i>'});
+//      window.setTimeout("$('#me').popover('show')", 1500);
+//      $(window).resize(function() {
+//          $('#me').popover('show');
+//      });
+      $('a.navbar-brand').click(function() {
+        $('a[href="'+$(this).attr('href')+'"]').tab('show');
+        if ($('div.navbar-collapse.in').size() > 0) {
+          window.setTimeout("$('.navbar-collapse').collapse('hide')", 100);
+        }
+        window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
+        setHash($(this).attr('href'));
+        ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
+        $(this).blur();
+        $(this).parent().addClass('active');
+        $("ul.nav li.active").each(function() { $(this).removeClass("active"); });
+        return false;
+      });
+      $('div.navbar-collapse ul li a').click(function() {
+        if ($('div.navbar-collapse.in').size() > 0) {
+          window.setTimeout("$('.navbar-collapse').collapse('hide')", 100);
+        }
+        $('a.navbar-brand').parent().removeClass('active');
+        window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
+        setHash($(this).attr('href'));
+        ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
+      });
+      if ((document.location + "").indexOf("http://") == 0) {
+        window.setTimeout("$('#nosslhint').fadeIn('fast')", 5000);
+      }
+      $("#table-education").tablesorter({headers: {1: {sorter: false}}, sortList: [[0,0]]});
+      $("#table-jobs").tablesorter({headers: {1: {sorter: false}}, sortList: [[0,0]]});
+      $("#table-projects").tablesorter({headers: {1: {sorter: false}}, sortList: [[0,1]]});
+	  $('.bottom-sitemap a').click(function() {
+        $("ul.nav li.active").each(function() { $(this).removeClass("active"); });
+        $('a.navbar-brand').parent().removeClass('active');
+	  });
+    });
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    if ((document.location + "").indexOf("http://") == 0) {
+      var gaProperty = 'UA-46685457-3';
+    } else {
+      var gaProperty = 'UA-46685457-4';
+    }
+    ga('create', gaProperty, 'kune.de');
+    ga('set', 'anonymizeIp', true);
+    ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
+
+    // Disable tracking if the opt-out cookie exists.
+    var disableStr = 'ga-disable-' + gaProperty;
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+      window[disableStr] = true;
+    }
+
+    // Opt-out function
+    function gaOptout() {
+      document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+      window[disableStr] = true;
+    }
+
+
+    // ]]</script>
+  </body>
+</html>
+

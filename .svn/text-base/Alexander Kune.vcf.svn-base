@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.9.1//EN
+N:Kune;Alexander;;;
+FN:Alexander Kune
+ORG:Freiberuflicher Softwareentwickler und IT-Berater;
+EMAIL;type=INTERNET;type=WORK;type=pref:alexander@kune.de
+TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+49 176 48264050
+ADR;type=WORK;type=pref:;;Landdrostenweg 11e;Hamburg;;22459;Germany
+item1.URL;type=pref:alexander.kune.de
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:5ddf7611-2804-42c7-b4f9-89fd3f1b87c5
+X-ABUID:5CCF927C-EB4D-4E72-8079-B9E15029AB60:ABPerson
+END:VCARD
