@@ -81,7 +81,14 @@ div.navbar-header.active a.navbar-brand {
 size: landscape;   /* auto is the initial value */ 
 /* this affects the margin in the printer settings */ 
 padding: 50mm;  
-} 
+}
+
+@media screen and (min-width: 768px) {
+img#me {
+  width: 96px;
+  height: 96px;
+}
+}
   
 @media print {    
 

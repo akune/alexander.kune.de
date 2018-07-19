@@ -74,8 +74,8 @@
 
 <!-- Tab panes -->
 <div id="container" class="tab-content container">
-  <img id="me" alt="" class="no-print shadow pull-right" width="64" height="64" style="margin-top: 15px;" src="img/alexander_kune.png"/>
-  <img class="print-only shadow pull-right" alt="" width="96" height="96" style="margin-top: 15px;" src="img/alexander_kune_print.jpg"/>
+  <img id="me" alt="" class="no-print shadow pull-right" width="64" height="64" style="margin-top: 15px;" src="img/alexander_kune_2018.png"/>
+  <img class="print-only shadow pull-right" alt="" width="96" height="96" style="margin-top: 15px;" src="img/alexander_kune_2018.png"/>
 
   <noscript><span class="anchor" id="profile"></span></noscript>
   <div class="tab-pane fade in active" id="_profile">
@@ -102,7 +102,7 @@
     </noscript>-->
 
 	<div class="bottom-sitemap no-print">
-		&copy; 2014 Alexander Kune | Stand: 31.05.2018 |
+		&copy; 2014 Alexander Kune | Stand: 20.07.2018 |
 		<a href="#imprint">Impressum</a> |
 		<a href="#privacy">Datenschutz</a> |
 		<a href="http://validator.w3.org/check?uri=https%3A%2F%2Falexander.kune.de;verbose=1" target="_blank">W3C-Konformität</a> | 
@@ -418,11 +418,13 @@
        ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
        window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
       });
-//      $('#me').popover({placement: 'left', container: '#container', html: true, content: '<i>Ich bin ab dem 15.3.2014 für <br/>neue Projekte <a href="mailto:Alexander%20Kune%20<alexander@kune.de>?subject=Ihre%20Verf%C3%BCgbarkeit%20ab%20dem%2015.3.2014">verfügbar</a>.</i>'});
-//      window.setTimeout("$('#me').popover('show')", 1500);
-//      $(window).resize(function() {
-//          $('#me').popover('show');
-//      });
+      //popUpContent = '<i>Ich bin ab dem 15.3.2014 für <br/>neue Projekte <a href="mailto:Alexander%20Kune%20<alexander@kune.de>?subject=Ihre%20Verf%C3%BCgbarkeit%20ab%20dem%2015.3.2014">verfügbar</a>.</i>';
+      //popUpContent = '<i>Herzlich willkommen. <br>Englische Version.</i>';
+      //$('#me').popover({placement: 'left', container: '#container', html: true, content: popUpContent});
+      //window.setTimeout("$('#me').popover('show')", 1500);
+      //$(window).resize(function() {
+      //    $('#me').popover('show');
+      //});
       $('a.navbar-brand').click(function() {
         $('a[href="'+$(this).attr('href')+'"]').tab('show');
         if ($('div.navbar-collapse.in').size() > 0) {
@@ -430,7 +432,7 @@
         }
         window.setTimeout("$('html, body').animate({ scrollTop: 0 }, 'fast');", 200);
         setHash($(this).attr('href'));
-        ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
+//        ga('send', {'hitType': 'pageview', 'page': document.location.pathname+document.location.hash});
         $(this).blur();
         $(this).parent().addClass('active');
         $("ul.nav li.active").each(function() { $(this).removeClass("active"); });
